@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Switch Website URL between Mobile and Desktop versions.</title>
+    <meta name="description" content="Switch website URL between mobile and desktop versions in Google Chrome.">
+    <meta name="keywords" content="chrome extension, switch url, toggle url, change url, alter url, modify url, web url, website url, mobile url, desktop url">
+    <meta name="author" content="Muhammad Hamid">
+</head>
+<body>
+    <div class="container">
+        <div class="btn">
+            <button id="changeURL"></button>
+        </div>
+    
+        <div class="options">
+            <input type="checkbox" id="newWindow" name="newWindow">
+            <label for="newWindow">New Window</label>
+        </div>
+
+        <div id="status" class="status success-msg" style="display: none">
+            <i class="fa fa-check"></i>
+            Options saved.
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
